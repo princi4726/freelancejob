@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Proposal - FreelanceHub</title>
+  <link rel="stylesheet" href="p4.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>FreelanceHub</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="l.html">Job List</a></li>
+        <li><a href="jobdetails.html">Job Details</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Form Section -->
+  <div class="form-container">
+    <h2>Apply for your job</h2>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="role">Select Job Role</label>
+      <select id="role" name="role">
+        <option value="">-- Select a Role --</option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+        <option value="Mobile App Developer">Mobile App Developer</option>
+        <option value="SEO Specialist">SEO Specialist</option>
+      </select>
+
+      <label for="price">Proposed Price ($)</label>
+      <input type="number" id="price" name="price">
+
+      <label for="details">Proposal Details</label>
+      <textarea id="details" name="details" rows="4"></textarea>
+
+      <label for="resume">Upload Resume (PDF/DOC)</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
+      <div class="button-group">
+        <button type="submit">Submit Proposal</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <p>Email: <a href="mailto:support@freelancehub.com">support@freelancehub.com</a></p>
+            <p>Phone: <a href="tel:+919999999999">+91-99999-99999</a></p>
+        </div>
+        <div class="social-icons">
+            <a href="#" >
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="#" >
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter">
+            </a>
+            <a href="#" >
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="#" >
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+            </a>
+        </div>
+        <p class="copyright">&copy; 2025 FreelanceHub. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

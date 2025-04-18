@@ -1,0 +1,158 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fceff9; /* pastel pink background */
+    color: #3d3d4e; /* soft dark gray text */
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #eae6f8; /* light lavender */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+    color: #5a4e8c; /* muted purple */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #5a4e8c; /* muted purple */
+    font-weight: 500;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-links li a:hover {
+    color: #79b4b7; /* mint hover */
+    border-bottom: 2px solid #79b4b7; /* mint underline */
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .welcome h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome h1 span {
+    color: #79b4b7; /* mint */
+  }
+  
+  .welcome p {
+    font-size: 18px;
+    color: #6d4c41; /* soft brown */
+  }
+  
+  /* Job Detail Card */
+  .job-detail-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+  }
+  
+  .job-detail-card h2 {
+    color: #0077cc; /* soft blue */
+    margin-top: 0;
+  }
+  
+  .job-meta {
+    margin: 10px 0 20px;
+    font-size: 0.95rem;
+    color: #666; /* soft gray */
+  }
+  
+  .description h3 {
+    margin-top: 20px;
+    color: #0077cc; /* soft blue */
+  }
+  
+  .description ul {
+    padding-left: 20px;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    background: #ff6b81; /* pastel coral */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: background 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background: #ff4f6f; /* darker coral */
+  }
+  
+  .footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #d8e3e7; /* soft pastel blue-grey */
+    color: #5a4e8c; /* muted purple */
+  }
+  
+  .footer-container a {
+    color: #5a4e8c;
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    color: #9f7aea; /* lavender hover */
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 8px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0.5) invert(0.6);
+  }
+  
+  .footer-container .copyright {
+    font-size: 14px;
+  }
+  
